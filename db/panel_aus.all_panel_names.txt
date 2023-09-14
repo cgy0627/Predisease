@@ -1,0 +1,245 @@
+Achromatopsia
+Additional findings_Adult
+Additional findings_Paediatric
+Alagille syndrome
+Alternating Hemiplegia and Hemiplegic Migraine
+Amelogenesis imperfecta
+Angelman Rett like syndromes
+Anophthalmia_Microphthalmia_Coloboma
+Aortopathy_Connective Tissue Disorders
+Arrhythmogenic Cardiomyopathy
+Arthrogryposis
+Ataxia - adult onset
+Ataxia - paediatric
+Atrial Fibrillation
+Atypical Haemolytic Uraemic Syndrome_MPGN
+Auditory Neuropathy
+Autism
+Autonomic neuropathy
+BabyScreen+ newborn screening
+Bardet Biedl syndrome
+Bleeding and Platelet Disorders
+Blepharophimosis
+Bone Marrow Failure
+Brain Calcification
+Brain Channelopathies
+Brugada syndrome
+CGC_86
+Calcium and Phosphate disorders
+Callosome
+Cancer Predisposition_Paediatric
+Cardiomyopathy_Paediatric
+Cataract
+Catecholaminergic Polymorphic Ventricular Tachycardia
+Central Hypoventilation
+Cerebellar and Pontocerebellar Hypoplasia
+Cerebral Palsy
+Cerebral amyloid angiopathy
+Cerebral vascular malformations
+Choanal atresia
+Cholestasis
+Chondrodysplasia Punctata
+Chromosome Breakage Disorders
+Chronic granulomatous disease
+Ciliary Dyskinesia
+Ciliopathies
+Clefting disorders
+Cobblestone Malformations
+Combined Immunodeficiency
+Common Variable Immunodeficiency
+Complement Deficiencies
+Cone-rod Dystrophy
+Congenital Diarrhoea
+Congenital Disorders of Glycosylation
+Congenital Heart Defect
+Congenital Myasthenia
+Congenital Stationary Night Blindness
+Congenital anomalies of the kidney and urinary tract (CAKUT) Nonsyndromic
+Congenital anomalies of the kidney and urinary tract (CAKUT) Syndromic
+Congenital diaphragmatic hernia
+Congenital hypothyroidism
+Congenital nystagmus
+Congenital ophthalmoplegia
+Corneal Dystrophy
+Craniosynostosis
+Cutis Laxa
+Deafness_Isolated
+Deafness_IsolatedAndComplex
+Defects of innate immunity
+Desmosomal disorders
+Diabetes Insipidus
+Diamond Blackfan anaemia
+Differences of Sex Development
+Dilated Cardiomyopathy
+Disorders of branched chain amino acid metabolism
+Disorders of immune dysregulation
+Dyslipidaemia
+Dystonia - complex
+Dystonia - isolated/combined
+Early-onset Dementia
+Early-onset Parkinson disease
+Ectodermal Dysplasia
+Ehlers Danlos syndromes
+Epidermolysis bullosa
+Episodic Ataxia
+Eye Anterior Segment Abnormalities
+Facial papules
+Familial Generalised Epilepsy
+Familial hypercholesterolaemia
+Familial hypoparathyroidism
+Fatty Acid Oxidation Defects
+Fetal anomalies
+Focal Epilepsy
+Foveal Hypoplasia
+Frontonasal dysplasia
+Gastrointestinal neuromuscular disease
+Genetic Epilepsy
+Glaucoma congenital
+Glycogen Storage Diseases
+Growth failure
+Haematuria_Alport
+Hair disorders
+Hand and foot malformations
+Hereditary Haemorrhagic Telangiectasia
+Hereditary Neuropathy - complex
+Hereditary Neuropathy_CMT - isolated
+Hereditary Spastic Paraplegia - adult onset
+Hereditary Spastic Paraplegia - paediatric
+Hereditary angioedema
+Heterotaxy
+Hirschsprung disease
+Holoprosencephaly and septo-optic dysplasia
+Homologous_recombination_deficiency_WTS_UMCCR
+Hydrocephalus_Ventriculomegaly
+Hydrops fetalis
+Hyper-IgE syndrome
+Hyperammonaemia
+Hypercalcaemia
+Hyperinsulinism
+Hypertension and Aldosterone disorders
+Hyperthyroidism
+Hypertrichosis syndromes
+Hypertrophic cardiomyopathy_HCM
+IBMDx study
+Ichthyosis
+Immune_markers_WTS_UMCCR
+Imprinting disorders
+Incidentalome
+Incidentalome_PREGEN_DRAFT
+Inflammatory bowel disease
+Intellectual disability syndromic and non-syndromic
+Interstitial Lung Disease
+Iron metabolism disorders
+Joubert syndrome and other neurological ciliopathies
+Kabuki syndrome
+Leukodystrophy - adult onset
+Leukodystrophy - paediatric
+Limb-Girdle Muscular Dystrophy and Distal Myopathy
+Lipodystrophy_Lipoatrophy
+Lissencephaly and Band Heterotopia
+Liver Failure_Paediatric
+Long QT Syndrome
+Lymphoedema_nonsyndromic
+Lymphoedema_syndromic
+Lysosomal Storage Disorder
+Mackenzie's Mission_Reproductive Carrier Screening
+Macrocephaly_Megalencephaly
+Macular Dystrophy/Stargardt Disease
+Malignant Hyperthermia Susceptibility
+Mandibulofacial Acrofacial dysostosis
+Maturity-onset Diabetes of the Young
+Medulloblastoma
+Melanoma
+Mendelian susceptibility to Immune Disorders
+Mendeliome
+Metaphyseal dysplasias
+Microcephalic Primordial Dwarfism and Slender bone dysplasias
+Microcephaly
+Mirror movements
+Miscellaneous Metabolic Disorders
+Mitochondrial disease
+Monogenic Diabetes
+Mosaic skin disorders
+Motor Neurone Disease
+Multiple epiphyseal dysplasia and pseudoachondroplasia
+Multiple joint dislocations and laxity
+Multiple pterygium syndrome_Fetal akinesia sequence
+Muscular dystrophy and myopathy_Paediatric
+NCGC
+Neuroferritinopathies
+Neurotransmitter Defects
+Ocular and Oculocutaneous Albinism
+Oligodontia
+Optic Atrophy
+Osteogenesis Imperfecta and Osteoporosis
+Osteopetrosis
+Overgrowth
+Pain syndromes
+Palmoplantar Keratoderma and Erythrokeratoderma
+Pancreatitis
+Paroxysmal Dyskinesia
+Periventricular Grey Matter Heterotopia
+Peroxisomal Disorders
+Phagocyte Defects
+Pharmacogenomics_Paediatric
+Photosensitivity Syndromes
+Pierre Robin Sequence
+Pituitary hormone deficiency
+Pneumothorax
+Polycystic liver disease
+Polydactyly
+Polymicrogyria and Schizencephaly
+Porphyria
+Predominantly Antibody Deficiency
+Prepair 1000+
+Primary Ovarian Insufficiency_Premature Ovarian Failure
+Progressive Myoclonic Epilepsy
+Proteinuria
+Pseudohypoparathyroidism and Albright Hereditary Osteodystrophy
+Pulmonary Arterial Hypertension
+Pulmonary Fibrosis_Interstitial Lung Disease
+Radial Ray Abnormalities
+Rasopathy
+Red cell disorders
+Regression
+Renal Amyloidosis
+Renal Ciliopathies and Nephronophthisis
+Renal Macrocystic Disease
+Renal Tubulointerstitial Disease
+Renal Tubulopathies and related disorders
+Renal cancer
+Retinitis pigmentosa_Autosomal Dominant
+Retinitis pigmentosa_Autosomal Recessive/X-linked
+Rhabdomyolysis and Metabolic Myopathy
+Sarcoma
+Schwannomatosis
+Severe Combined Immunodeficiency (absent T absent B cells)
+Severe Combined Immunodeficiency (absent T present B cells)
+Severe early-onset obesity
+Short Long Bones with Advanced Carpal Bone Age
+Short QT syndrome
+Short Rib Polydactyly_Jeune Asphyxiating Thoracic Dystrophy_Skeletal Ciliopathy
+Sick sinus syndrome
+Skeletal Dysplasia_Fetal
+Skeletal Muscle Channelopathies
+Skeletal dysplasia
+Spondylocostal Dysostosis
+Stickler Syndrome
+Stroke
+Susceptibility to Fungal Infections
+Susceptibility to Viral Infections
+Syndromic Retinopathy
+Systemic Autoinflammatory Disease_Periodic Fever
+TCGA_PANCAN_2018
+Transplant Co-Morbidity Superpanel
+Tuberous Sclerosis_Focal Cortical Dysplasia_Hemimegalencephaly
+Tubulinopathies
+Usher Syndrome
+Vascular Malformations_Germline
+Vascular Malformations_Somatic
+Vasculitis
+Ventricular Fibrillation
+Vitamin C Pathway Disorders
+Vitreoretinopathy
+Wilms Tumour Predisposition
+panel_name

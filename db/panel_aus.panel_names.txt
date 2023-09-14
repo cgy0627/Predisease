@@ -1,0 +1,124 @@
+Amelogenesis imperfecta
+Angelman Rett like syndromes
+Anophthalmia_Microphthalmia_Coloboma
+Aortopathy_Connective Tissue Disorders
+Ataxia - adult onset
+Ataxia - paediatric
+Atrial Fibrillation
+Auditory Neuropathy
+BabyScreen+ newborn screening
+Bardet Biedl syndrome
+Bleeding and Platelet Disorders
+Blepharophimosis
+Bone Marrow Failure
+Brain Calcification
+Brain Channelopathies
+Calcium and Phosphate disorders
+Central Hypoventilation
+Cerebellar and Pontocerebellar Hypoplasia
+Cerebral Palsy
+Cerebral amyloid angiopathy
+Choanal atresia
+Chondrodysplasia Punctata
+Chromosome Breakage Disorders
+Chronic granulomatous disease
+Ciliary Dyskinesia
+Ciliopathies
+Cobblestone Malformations
+Combined Immunodeficiency
+Common Variable Immunodeficiency
+Congenital Diarrhoea
+Congenital Disorders of Glycosylation
+Congenital Myasthenia
+Congenital diaphragmatic hernia
+Congenital nystagmus
+Congenital ophthalmoplegia
+Corneal Dystrophy
+Craniosynostosis
+Cutis Laxa
+Deafness_Isolated
+Deafness_IsolatedAndComplex
+Diabetes Insipidus
+Diamond Blackfan anaemia
+Dilated Cardiomyopathy
+Disorders of branched chain amino acid metabolism
+Dystonia - isolated/combined
+Early-onset Dementia
+Ehlers Danlos syndromes
+Epidermolysis bullosa
+Episodic Ataxia
+Eye Anterior Segment Abnormalities
+Facial papules
+Familial hypoparathyroidism
+Fatty Acid Oxidation Defects
+Fetal anomalies
+Gastrointestinal neuromuscular disease
+Glaucoma congenital
+Glycogen Storage Diseases
+Growth failure
+Haematuria_Alport
+Hereditary Haemorrhagic Telangiectasia
+Hereditary Neuropathy - complex
+Hereditary Neuropathy_CMT - isolated
+Hereditary Spastic Paraplegia - adult onset
+Hereditary Spastic Paraplegia - paediatric
+Hereditary angioedema
+Heterotaxy
+Holoprosencephaly and septo-optic dysplasia
+Hyper-IgE syndrome
+Hypercalcaemia
+Hyperinsulinism
+Hypertension and Aldosterone disorders
+Ichthyosis
+Imprinting disorders
+Interstitial Lung Disease
+Joubert syndrome and other neurological ciliopathies
+Limb-Girdle Muscular Dystrophy and Distal Myopathy
+Lipodystrophy_Lipoatrophy
+Lissencephaly and Band Heterotopia
+Liver Failure_Paediatric
+Lysosomal Storage Disorder
+Malignant Hyperthermia Susceptibility
+Mandibulofacial Acrofacial dysostosis
+Maturity-onset Diabetes of the Young
+Mendeliome
+Microcephaly
+Mirror movements
+Miscellaneous Metabolic Disorders
+Mosaic skin disorders
+Motor Neurone Disease
+Multiple pterygium syndrome_Fetal akinesia sequence
+Muscular dystrophy and myopathy_Paediatric
+Neurotransmitter Defects
+Ocular and Oculocutaneous Albinism
+Optic Atrophy
+Overgrowth
+Pancreatitis
+Periventricular Grey Matter Heterotopia
+Phagocyte Defects
+Photosensitivity Syndromes
+Polycystic liver disease
+Prepair 1000+
+Pulmonary Arterial Hypertension
+Radial Ray Abnormalities
+Red cell disorders
+Renal Ciliopathies and Nephronophthisis
+Renal Tubulointerstitial Disease
+Renal Tubulopathies and related disorders
+Rhabdomyolysis and Metabolic Myopathy
+Severe Combined Immunodeficiency (absent T absent B cells)
+Severe Combined Immunodeficiency (absent T present B cells)
+Severe early-onset obesity
+Short QT syndrome
+Short Rib Polydactyly_Jeune Asphyxiating Thoracic Dystrophy_Skeletal Ciliopathy
+Sick sinus syndrome
+Skeletal Muscle Channelopathies
+Stickler Syndrome
+Stroke
+Susceptibility to Fungal Infections
+Systemic Autoinflammatory Disease_Periodic Fever
+Tubulinopathies
+Usher Syndrome
+Vascular Malformations_Germline
+Vascular Malformations_Somatic
+Vitreoretinopathy
