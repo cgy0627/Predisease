@@ -1,0 +1,25 @@
+#mimNumber 142622
+prefix *
+preferredTitle HIPPOCALCIN; HPCA
+approvedGeneSymbols HPCA
+hgncId 5144
+ncbiGeneIds 3208
+ensemblIds ENSG00000121905,ENST00000373467;;;ENST00000373467
+geneReviewsIds -
+gardIds -
+geneSymbols HPCA||DYT2
+geneName Hippocalcin, 23kD, Ca2+-binding protein
+chromosome 1
+chromosomeLocationStart 32885996
+chromosomeLocationEnd 32894646
+genePhenoMap:exists True
+genePhenoMap:geneMimNumber 142622
+genePhenoMap:phenotypeMimNumber 224500
+genePhenoMap:phenotypeTitle Dystonia 2, torsion, autosomal recessive
+genePhenoMap:phenoInheritance Autosomal recessive
+genePhenoMap:phenotypeMappingKey 3
+genePhenoMap:transcript -
+hpos -
+hpoUnmatchedStrs -
+pubmedId 25799108||14694054||1280427||9931466||16102532||8166736||17296551||6115727
+
