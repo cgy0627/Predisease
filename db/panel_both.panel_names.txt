@@ -1,0 +1,396 @@
+Acute rhabdomyolysis
+Adult onset dystonia, chorea or related movement disorder
+Adult onset hereditary spastic paraplegia
+Adult onset leukodystrophy
+Adult onset neurodegenerative disorder
+Adult solid tumours cancer susceptibility
+Adult solid tumours for rare disease
+Albinism or congenital nystagmus
+Amelogenesis imperfecta
+Amyotrophic lateral sclerosis/motor neuron disease
+Angelman Rett like syndromes
+Anophthalmia or microphthalmia
+Anophthalmia_Microphthalmia_Coloboma
+Aortopathy_Connective Tissue Disorders
+Arrhythmogenic right ventricular cardiomyopathy
+Arthrogryposis
+Ataxia - adult onset
+Ataxia - paediatric
+Ataxia and cerebellar anomalies - narrow panel
+Atrial Fibrillation
+Atypical haemolytic uraemic syndrome
+Auditory Neuropathy
+Auditory Neuropathy Spectrum Disorde
+Autoinflammatory disorders
+Autosomal recessive congenital ichthyosis
+BabyScreen+ newborn screening
+Bardet Biedl syndrome
+Beckwith-Wiedemann syndrome (BWS) and other congenital overgrowth disorders
+Bilateral congenital or childhood onset cataracts
+Bleeding and Platelet Disorders
+Bleeding and platelet disorders
+Blepharophimosis
+Bone Marrow Failure
+Brain Calcification
+Brain Channelopathies
+Brain channelopathy
+Breast cancer pertinent cancer susceptibility
+Brugada syndrome and cardiac sodium channel disease
+CAKUT
+COVID-19 research
+Calcium and Phosphate disorders
+Cardiac arrhythmias - additional genes
+Catecholaminergic polymorphic VT
+Central Hypoventilation
+Cerebellar and Pontocerebellar Hypoplasia
+Cerebellar hypoplasia
+Cerebral Palsy
+Cerebral amyloid angiopathy
+Cerebral folate deficiency
+Cerebral vascular malformations
+Childhood onset dystonia, chorea or related movement disorder
+Childhood onset hereditary spastic paraplegia
+Childhood solid tumours
+Childhood solid tumours cancer susceptibility
+Choanal atresia
+Cholestasis
+Chondrodysplasia Punctata
+Chromosome Breakage Disorders
+Chronic granulomatous disease
+Ciliary Dyskinesia
+Ciliopathies
+Classical tuberous sclerosis
+Clefting
+Cobblestone Malformations
+Combined Immunodeficiency
+Combined factor V and VIII deficiency
+Common Variable Immunodeficiency
+Confirmed Fanconi anaemia or Bloom syndrome
+Congenital Diarrhoea
+Congenital Disorders of Glycosylation
+Congenital Myasthenia
+Congenital adrenal hypoplasia
+Congenital diaphragmatic hernia
+Congenital disorders of glycosylation
+Congenital fibrosis of the extraocular muscles
+Congenital hyperinsulinism
+Congenital hypothyroidism
+Congenital muscular dystrophy
+Congenital myaesthenic syndrome
+Congenital myopathy
+Congenital nystagmus
+Congenital ophthalmoplegia
+Corneal Dystrophy
+Corneal abnormalities
+Corneal dystrophy
+Craniosynostosis
+Currarino triad
+Cutaneous photosensitivity with a likely genetic cause
+Cutis Laxa
+Cystic kidney disease
+Cytopenia - NOT Fanconi anaemia
+Cytopenias and congenital anaemias
+DDG2P
+Deafness and congenital structural abnormalities
+Deafness_Isolated
+Deafness_IsolatedAndComplex
+Diabetes Insipidus
+Diabetes with additional phenotypes suggestive of a monogenic aetiology
+Diamond Blackfan anaemia
+Dilated Cardiomyopathy
+Dilated Cardiomyopathy and conduction defects
+Dilated and arrhythmogenic cardiomyopathy
+Disorders of branched chain amino acid metabolism
+Disorders of sex development
+Distal myopathies
+Ductal plate malformation
+Dystonia - isolated/combined
+Early onset dementia (encompassing fronto-temporal dementia and prion disease)
+Early onset dystonia
+Early onset or syndromic epilepsy
+Early-onset Dementia
+Ectodermal dysplasia
+Ectodermal dysplasia without a known gene mutation
+Ehlers Danlos syndrome with a likely monogenic cause
+Ehlers Danlos syndromes
+Endocrine neoplasia
+Epidermolysis bullosa
+Epidermolysis bullosa and congenital skin fragility
+Episodic Ataxia
+Erythropoietic protoporphyria, mild variant
+Extreme early-onset hypertension
+Eye Anterior Segment Abnormalities
+Facial papules
+Familial Hirschsprung Disease
+Familial Meniere Disease
+Familial Neural Tube Defects
+Familial Tumours Syndromes of the central & peripheral Nervous system
+Familial breast cancer
+Familial cerebral small vessel disease
+Familial chylomicronaemia syndrome (FCS)
+Familial cicatricial alopecia
+Familial diabetes
+Familial disseminated superficial actinic porokeratosis
+Familial dysautonomia
+Familial hidradenitis suppurativa
+Familial hypercholesterolaemia
+Familial hypercholesterolaemia (GMS)
+Familial hyperparathyroidism or hypocalciuric hypercalcaemia
+Familial hypoparathyroidism
+Familial melanoma
+Familial non syndromic congenital heart disease
+Familial prostate cancer
+Familial pulmonary fibrosis
+Familial rhabdomyosarcoma
+Fatty Acid Oxidation Defects
+Fetal anomalies
+Fetal hydrops
+GI tract tumours
+Gastrointestinal epithelial barrier disorders
+Gastrointestinal neuromuscular disease
+Gastrointestinal neuromuscular disorders
+Generalised pustular psoriasis
+Genodermatoses with malignancies
+Glaucoma (developmental)
+Glaucoma congenital
+Glycogen Storage Diseases
+Glycogen storage disease
+Growth failure
+Growth failure in early childhood
+Haematological malignancies cancer susceptibility
+Haematological malignancies for rare disease
+Haematuria
+Haematuria_Alport
+Head and neck cancer pertinent cancer susceptibility
+Hereditary Erythrocytosis
+Hereditary Haemorrhagic Telangiectasia
+Hereditary Neuropathy - complex
+Hereditary Neuropathy_CMT - isolated
+Hereditary Spastic Paraplegia - adult onset
+Hereditary Spastic Paraplegia - paediatric
+Hereditary angioedema
+Hereditary ataxia
+Hereditary ataxia with onset in adulthood
+Hereditary haemorrhagic telangiectasia
+Hereditary neuropathy
+Hereditary neuropathy or pain disorder
+Hereditary spastic paraplegia
+Hereditary systemic amyloidosis
+Heterotaxy
+Holoprosencephaly - NOT chromosomal
+Holoprosencephaly and septo-optic dysplasia
+Hydroa vacciniforme
+Hydrocephalus
+Hyper-IgE syndrome
+Hyperammonaemia
+Hypercalcaemia
+Hyperinsulinism
+Hypertension and Aldosterone disorders
+Hyperthyroidism
+Hypertrophic cardiomyopathy
+Hypogonadotropic hypogonadism
+Hypogonadotropic hypogonadism (GMS)
+Hypophosphataemia or rickets
+IUGR and IGF abnormalities
+Ichthyosis
+Ichthyosis and erythrokeratoderma
+Idiopathic ventricular fibrillation
+Imprinting disorders
+Infantile enterocolitis & monogenic inflammatory bowel disease
+Infantile nystagmus
+Inherited MMR deficiency (Lynch syndrome)
+Inherited bleeding disorders
+Inherited breast cancer and ovarian cancer
+Inherited non-medullary thyroid cancer
+Inherited ovarian cancer (without breast cancer)
+Inherited pancreatic cancer
+Inherited phaeochromocytoma and paraganglioma
+Inherited phaeochromocytoma and paraganglioma excluding NF1
+Inherited polyposis and early onset colorectal cancer - germline testing
+Inherited predisposition to GIST
+Inherited predisposition to acute myeloid leukaemia (AML)
+Inherited renal cancer
+Inherited white matter disorders
+Insulin resistance (including lipodystrophy)
+Intellectual disability - microarray and sequencing
+Interstitial Lung Disease
+Intestinal failure or congenital diarrhoea
+Intracerebral calcification disorders
+Iron metabolism disorders - NOT common HFE mutations
+Joubert syndrome and other neurological ciliopathies
+Kabuki syndrome
+Ketotic hypoglycaemia
+Kleine-Levin syndrome
+Laterality disorders and isomerism
+Leber hereditary optic neuropathy
+Left Ventricular Noncompaction Cardiomyopathy
+Likely inborn error of metabolism - targeted testing not possible
+Limb disorders
+Limb girdle muscular dystrophies, myofibrillar myopathies and distal myopathies
+Limb-Girdle Muscular Dystrophy and Distal Myopathy
+Lipodystrophy - childhood onset
+Lipodystrophy_Lipoatrophy
+Lissencephaly and Band Heterotopia
+Liver Failure_Paediatric
+Long QT syndrome
+Lysosomal Storage Disorder
+Lysosomal storage disorder
+Malformations of cortical development
+Malignant Hyperthermia Susceptibility
+Malignant hyperthermia
+Mandibulofacial Acrofacial dysostosis
+Maturity-onset Diabetes of the Young
+Membranoproliferative glomerulonephritis including C3 glomerulopathy
+Mendeliome
+Microcephaly
+Mirror movements
+Miscellaneous Metabolic Disorders
+Mitochondrial DNA maintenance disorder
+Mitochondrial disorder with complex I deficiency
+Mitochondrial disorder with complex II deficiency
+Mitochondrial disorder with complex III deficiency
+Mitochondrial disorder with complex IV deficiency
+Mitochondrial disorders
+Mitochondrial liver disease, including transient infantile liver failure
+Monogenic diabetes
+Monogenic hearing loss
+Monogenic nephrogenic diabetes insipidus
+Mosaic skin disorders
+Mosaic skin disorders - deep sequencing
+Motor Neurone Disease
+Mucopolysaccharideosis, Gaucher, Fabry
+Multi locus imprinting disorders
+Multi-organ autoimmune diabetes
+Multiple Epiphyseal Dysplasia
+Multiple endocrine tumours
+Multiple lipomas
+Multiple monogenic benign skin tumours
+Multiple pterygium syndrome_Fetal akinesia sequence
+Muscular dystrophy and myopathy_Paediatric
+Neonatal cholestasis
+Neonatal diabetes
+Nephrocalcinosis or nephrolithiasis
+Neurofibromatosis Type 1
+Neurological ciliopathies
+Neurological segmental overgrowth
+Neuronal ceroid lipofuscinosis
+Neurotransmitter Defects
+Neurotransmitter disorders
+Non-CF bronchiectasis
+Non-acute porphyrias
+Non-syndromic familial congenital anorectal malformations
+Non-syndromic hypotrichosis
+Ocular and Oculocutaneous Albinism
+Ocular and oculo-cutaneous albinism
+Ocular coloboma
+Ophthalmological ciliopathies
+Optic Atrophy
+Optic neuropathy
+Osteogenesis imperfecta
+Osteopetrosis
+Other rare neuromuscular disorders
+Ovarian cancer pertinent cancer susceptibility
+Overgrowth
+PHACE(S) syndrome
+Paediatric disorders - additional genes
+Paediatric motor neuronopathies
+Paediatric or syndromic cardiomyopathy
+Paediatric pseudo-obstruction syndrome
+Pain syndromes
+Palmoplantar keratoderma and erythrokeratodermas
+Palmoplantar keratodermas
+Pancreatitis
+Parkinson Disease and Complex Parkinsonism
+Paroxysmal central nervous system disorders
+Peeling skin syndrome
+Periodic fever syndromes
+Periventricular Grey Matter Heterotopia
+Peroxisomal disorders
+Phagocyte Defects
+Photosensitivity Syndromes
+Pigmentary skin disorders
+Pituitary hormone deficiency
+Pityriasis rubra pilaris
+Pneumothorax - familial
+Polycystic liver disease
+Possible mitochondrial disorder - nuclear genes
+Prepair 1000+
+Primary ciliary disorders
+Primary immunodeficiency or monogenic inflammatory bowel disease
+Primary lymphoedema
+Primary ovarian insufficiency
+Progressive cardiac conduction disease
+Proteinuric renal disease
+Pulmonary Arterial Hypertension
+Pulmonary arterial hypertension
+Pulmonary fibrosis familial
+Pyruvate dehydrogenase (PDH) deficiency
+RASopathies
+Radial Ray Abnormalities
+Radial dysplasia
+Rare anaemia
+Rare genetic inflammatory skin disorders
+Rare multisystem ciliopathy disorders
+Rare syndromic craniosynostosis or isolated multisuture synostosis
+Recurrent episodic apnoea
+Red cell disorders
+Renal Ciliopathies and Nephronophthisis
+Renal Tubulointerstitial Disease
+Renal Tubulopathies and related disorders
+Renal ciliopathies
+Renal tubulopathies
+Respiratory ciliopathies including non-CF bronchiectasis
+Retinal disorders
+Rhabdoid tumour predisposition
+Rhabdomyolysis and Metabolic Myopathy
+Rhabdomyolysis and metabolic muscle disorders
+Sarcoma cancer susceptibility
+Sarcoma susceptibility
+Segmental overgrowth disorders - Deep sequencing
+Severe Combined Immunodeficiency (absent T absent B cells)
+Severe Combined Immunodeficiency (absent T present B cells)
+Severe Paediatric Disorders
+Severe early-onset obesity
+Severe familial anorexia
+Severe hypertriglyceridaemia
+Severe microcephaly
+Severe multi-system atopic disease with high IgE
+Short QT syndrome
+Short Rib Polydactyly_Jeune Asphyxiating Thoracic Dystrophy_Skeletal Ciliopathy
+Sick sinus syndrome
+Silver Russell syndrome
+Skeletal Muscle Channelopathies
+Skeletal ciliopathies
+Skeletal dysplasia
+Skeletal muscle channelopathy
+Sporadic aniridia
+Stickler Syndrome
+Stickler syndrome
+Stroke
+Structural basal ganglia disorders
+Structural eye disease
+Sudden death in young people
+Surfactant deficiency
+Susceptibility to Fungal Infections
+Systemic Autoinflammatory Disease_Periodic Fever
+Thoracic aortic aneurysm or dissection
+Thoracic aortic aneurysm or dissection (GMS)
+Thoracic dystrophies
+Thrombocythaemia
+Thrombophilia with a likely monogenic cause
+Thyroid cancer pertinent cancer susceptibility
+Tubulinopathies
+Tubulointerstitial kidney disease
+Undiagnosed metabolic disorders
+Unexplained kidney failure in young people
+Unexplained young onset end-stage renal disease
+Usher Syndrome
+VACTERL-like phenotypes
+Vascular Malformations_Germline
+Vascular Malformations_Somatic
+Vascular skin disorders
+Vici Syndrome and other autophagy disorders
+Vitreoretinopathy
+White matter disorders and cerebral calcification - narrow panel
+Wilms tumour with features suggestive of predisposition
+Xeroderma pigmentosum, Trichothiodystrophy or Cockayne syndrome

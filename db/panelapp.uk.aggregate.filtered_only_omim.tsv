@@ -1,0 +1,102 @@
+#hgnc_id	hgnc_symbol	confidence_level	penetrance	pmid	omim_id	inheritance	panel_id	panel_name	panel_version	line_number
+HGNC:15455	MBTPS2	3	Complete	22816986	208800	X-LINKED: hemizygous mutation in males, biallelic mutations in females	305	Familial cicatricial alopecia	1.5	58
+HGNC:1033	BDNF	1	Complete	15657604	209880||164230||607499		262	Severe familial anorexia	1.3	657
+HGNC:19191	DOCK8	3	Complete	-	614113	BIALLELIC, autosomal or pseudoautosomal	62	Severe multi-system atopic disease with high IgE	1.8	665
+HGNC:391	AKT1	1	Complete	PMID: 23246288	181500		201	Genodermatoses with malignancies	1.10	1630
+HGNC:3401	EPHX1	1	Complete	-	607748		131	IUGR and IGF abnormalities	1.58	1953
+HGNC:9863	RAPSN	1	Complete	-	608931	BIALLELIC, autosomal or pseudoautosomal	131	IUGR and IGF abnormalities	1.58	1986
+HGNC:9588	PTEN	1	Complete	-	608089||153480||188470||155600||276950		101	VACTERL-like phenotypes	1.34	3708
+HGNC:7455	MT-ND1	0	Complete	-	272120	MITOCHONDRIAL	45	Sudden death in young people	1.15	4424
+HGNC:2073	TPP1	3	-	-	607998	BIALLELIC, autosomal or pseudoautosomal	477	Ataxia and cerebellar anomalies - narrow panel	4.34	5100
+HGNC:16268	PNPLA6	3	-	-	603197	BIALLELIC, autosomal or pseudoautosomal	477	Ataxia and cerebellar anomalies - narrow panel	4.34	5113
+HGNC:26690	CEP120	3	Complete	-	220493	BIALLELIC, autosomal or pseudoautosomal	122	Thoracic dystrophies	1.18	5247
+HGNC:26193	CSPP1	3	Complete	-	397715	BIALLELIC, autosomal or pseudoautosomal	122	Thoracic dystrophies	1.18	5271
+HGNC:2962	DYNC2H1	3	Complete	-	263510	BIALLELIC, autosomal or pseudoautosomal	122	Thoracic dystrophies	1.18	5283
+HGNC:9588	PTEN	3	Complete	20301661	153480	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	254	GI tract tumours	1.22	5557
+HGNC:9122	PMS2	3	Complete	24362816	276300	BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal	254	GI tract tumours	1.22	5558
+HGNC:7329	MSH6	3	Complete	24362816	276300	BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal	254	GI tract tumours	1.22	5560
+HGNC:7325	MSH2	3	Complete	24362816	276300	BOTH monoallelic and biallelic (but BIALLELIC mutations cause a more SEVERE disease form), autosomal or pseudoautosomal	254	GI tract tumours	1.22	5561
+HGNC:14234	NSD1	3	Complete	-	601626	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	243	Childhood solid tumours	4.7	5610
+HGNC:391	AKT1	1	Complete	PMID: 23246288	181500		243	Childhood solid tumours	4.7	5660
+HGNC:4198	GCM2	3	-	29199197||29264504||31671402||14715834	146200	MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown	480	Familial hyperparathyroidism or hypocalciuric hypercalcaemia	3.3	5687
+HGNC:15455	MBTPS2	3	-	22816986	208800	X-LINKED: hemizygous mutation in males, biallelic mutations in females	553	Ectodermal dysplasia	3.8	6147
+HGNC:28396	TMEM67	0	-	28680603||26191240	310688	BIALLELIC, autosomal or pseudoautosomal	544	Cholestasis	3.1	6316
+HGNC:29168	RPGRIP1L	0	-	28680603	216360	BIALLELIC, autosomal or pseudoautosomal	544	Cholestasis	3.1	6317
+HGNC:12703	BEST1	1	Complete	-	608161	MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown	230	Bilateral congenital or childhood onset cataracts	4.3	7022
+HGNC:3356	ENPP1	0	Complete	-	602475		152	Familial diabetes	1.67	7181
+HGNC:6257	KCNJ11	3	Complete	-	606176	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	152	Familial diabetes	1.67	7228
+HGNC:16268	PNPLA6	3	Complete	-	603197	BIALLELIC, autosomal or pseudoautosomal	20	Hereditary ataxia	1.331	7434
+HGNC:4232	GDNF	1	Complete	-	209880||171300		97	Inherited phaeochromocytoma and paraganglioma	1.11	7524
+HGNC:10683	SDHD	3	Complete	-	114900	MONOALLELIC, autosomal or pseudoautosomal, maternally imprinted (paternal allele expressed)	97	Inherited phaeochromocytoma and paraganglioma	1.11	7527
+HGNC:9967	RET	3	Complete	-	209880||191830	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	97	Inherited phaeochromocytoma and paraganglioma	1.11	7530
+HGNC:16636	KIF1B	1	Complete	-	171300		97	Inherited phaeochromocytoma and paraganglioma	1.11	7535
+HGNC:10683	SDHD	3	-	-	114900	MONOALLELIC, autosomal or pseudoautosomal, maternally imprinted (paternal allele expressed)	649	Inherited phaeochromocytoma and paraganglioma excluding NF1	2.1	7713
+HGNC:9967	RET	3	-	-	209880||191830	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	649	Inherited phaeochromocytoma and paraganglioma excluding NF1	2.1	7716
+HGNC:29168	RPGRIP1L	3	-	-	216360	BIALLELIC, autosomal or pseudoautosomal	209	Ductal plate malformation	1.27	7752
+HGNC:8076	NXPH2	1	-	-	602088	BIALLELIC, autosomal or pseudoautosomal	209	Ductal plate malformation	1.27	7775
+HGNC:29253	CC2D2A	3	-	-	216360	BIALLELIC, autosomal or pseudoautosomal	209	Ductal plate malformation	1.27	7784
+HGNC:28396	TMEM67	3	-	28680603||26191240	310688	BIALLELIC, autosomal or pseudoautosomal	209	Ductal plate malformation	1.27	7884
+HGNC:29168	RPGRIP1L	1	-	-	216360	BIALLELIC, autosomal or pseudoautosomal	653	Polycystic liver disease	1.28	8013
+HGNC:29253	CC2D2A	1	-	-	216360	BIALLELIC, autosomal or pseudoautosomal	653	Polycystic liver disease	1.28	8016
+HGNC:28396	TMEM67	1	-	28680603||26191240	310688	BIALLELIC, autosomal or pseudoautosomal	653	Polycystic liver disease	1.28	8022
+HGNC:10484	RYR2	1	-	30420954||19862833||16301704	600996	MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown	224	Short QT syndrome	3.7	8292
+HGNC:10484	RYR2	1	Complete	http://www.ncbi.nlm.nih.gov/books/NBK1131/||29567486||28404607	600996	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	134	Arrhythmogenic right ventricular cardiomyopathy	3.6	8320
+HGNC:6636	LMNA	3	Complete	20186049||27532257	275210	MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown	47	Dilated Cardiomyopathy and conduction defects	1.82	8445
+HGNC:3401	EPHX1	1	Complete	-	607748		159	Cytopenias and congenital anaemias	1.111	10045
+HGNC:7579	MYH9	1	Complete	-	153650||605249||153640	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	159	Cytopenias and congenital anaemias	1.111	10214
+HGNC:2208	COL4A6	1	Complete	-	308940		156	Unexplained kidney failure in young people	1.117	10651
+HGNC:8620	PAX6	3	Complete	12721955, 24859618	206700	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	294	Ocular coloboma	1.46	10782
+HGNC:3356	ENPP1	0	-	-	602475	Unknown	472	Monogenic diabetes	2.51	11597
+HGNC:1529	CAV3	1	Complete	-	607801		258	Arthrogryposis	5.13	12004
+HGNC:5383	IDH2	1	Complete	22057234||22057236	614875||166000	Unknown	309	Skeletal dysplasia	4.18	13669
+HGNC:16892	CD96	1	-	-	217750		309	Skeletal dysplasia	4.18	13804
+HGNC:2962	DYNC2H1	3	Complete	-	263510	BIALLELIC, autosomal or pseudoautosomal	309	Skeletal dysplasia	4.18	13811
+HGNC:26193	CSPP1	3	Complete	-	397715	BIALLELIC, autosomal or pseudoautosomal	309	Skeletal dysplasia	4.18	13918
+HGNC:28887	LEMD3	3	Complete	-	155950	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	309	Skeletal dysplasia	4.18	14120
+HGNC:14234	NSD1	3	Complete	-	601626	MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown	38	Beckwith-Wiedemann syndrome (BWS) and other congenital overgrowth disorders	1.120	14628
+HGNC:2707	ACE	3	Complete	30058238	104300	BIALLELIC, autosomal or pseudoautosomal	234	CAKUT	1.173	14658
+HGNC:2208	COL4A6	1	-	-	308940	Unknown	678	Unexplained young onset end-stage renal disease	3.5	14764
+HGNC:2707	ACE	3	-	-	104300	BIALLELIC, autosomal or pseudoautosomal	678	Unexplained young onset end-stage renal disease	3.5	14896
+HGNC:16268	PNPLA6	1	-	29749493	603197	BIALLELIC, autosomal or pseudoautosomal	474	Adult onset neurodegenerative disorder	4.35	15239
+HGNC:26927	FOXRED1	3	Complete	27604308	256000	BIALLELIC, autosomal or pseudoautosomal	302	Undiagnosed metabolic disorders	1.600	15535
+HGNC:7710	NDUFS3	3	Complete	27604308	256000	BIALLELIC, autosomal or pseudoautosomal	302	Undiagnosed metabolic disorders	1.600	15619
+HGNC:27960	SLC6A19	3	Complete	19335424||27604308	242600||138500	BOTH monoallelic and biallelic, autosomal or pseudoautosomal	302	Undiagnosed metabolic disorders	1.600	15832
+HGNC:7711	NDUFS4	3	Complete	27604308	256000	BIALLELIC, autosomal or pseudoautosomal	302	Undiagnosed metabolic disorders	1.600	15998
+HGNC:26927	FOXRED1	3	-	27604308	256000	BIALLELIC, autosomal or pseudoautosomal	467	Likely inborn error of metabolism - targeted testing not possible	4.49	16303
+HGNC:7693	NDUFA9	3	-	-	256000	BIALLELIC, autosomal or pseudoautosomal	467	Likely inborn error of metabolism - targeted testing not possible	4.49	16459
+HGNC:7710	NDUFS3	3	-	27604308	256000	BIALLELIC, autosomal or pseudoautosomal	467	Likely inborn error of metabolism - targeted testing not possible	4.49	16758
+HGNC:10484	RYR2	3	-	25163546||20301310||32748945	600996	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	652	Dilated and arrhythmogenic cardiomyopathy	2.14	17498
+HGNC:6636	LMNA	3	-	35348702||20186049||27532257	275210	MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown	652	Dilated and arrhythmogenic cardiomyopathy	2.14	17542
+HGNC:6636	LMNA	3	Complete	-	275210	BIALLELIC, autosomal or pseudoautosomal	85	Hereditary neuropathy	1.472	22267
+HGNC:1020	BCS1L	3	Complete	PMID:10508156	256000	BIALLELIC, autosomal or pseudoautosomal	126	Monogenic hearing loss	4.14	22563
+HGNC:2187	COL11A2	3	Complete	PMID: 10581026	277610	BOTH monoallelic and biallelic, autosomal or pseudoautosomal	126	Monogenic hearing loss	4.14	22705
+HGNC:2208	COL4A6	1	Complete	-	308940		99	Haematuria	2.11	23114
+HGNC:9863	RAPSN	1	-	-	608931	BIALLELIC, autosomal or pseudoautosomal	473	Growth failure in early childhood	3.3	23299
+HGNC:3401	EPHX1	1	-	-	607748	Unknown	473	Growth failure in early childhood	3.3	23359
+HGNC:6257	KCNJ11	3	Complete	28943513||25529582||27681997||25678012||24896178	606176	BOTH monoallelic and biallelic, autosomal or pseudoautosomal	285	Intellectual disability - microarray and sequencing	5.285	25183
+HGNC:20087	TTC8	3	Complete	-	209900	BIALLELIC, autosomal or pseudoautosomal	285	Intellectual disability - microarray and sequencing	5.285	25276
+HGNC:5961	IKBKG	3	Complete	-	300584||300301	X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)	285	Intellectual disability - microarray and sequencing	5.285	25298
+HGNC:26408	ZNF599	1	Complete	22378287	613026	MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown	285	Intellectual disability - microarray and sequencing	5.285	25340
+HGNC:7711	NDUFS4	3	Complete	-	256000	BIALLELIC, autosomal or pseudoautosomal	285	Intellectual disability - microarray and sequencing	5.285	25718
+HGNC:2202	COL4A1	3	Complete	-	607595	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	285	Intellectual disability - microarray and sequencing	5.285	25851
+HGNC:19744	SRGAP3	2	Complete	24300292||12195014||19760623||26350204||21082655	613792	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	285	Intellectual disability - microarray and sequencing	5.285	25931
+HGNC:24316	TACO1	1	Complete	-	220110	BIALLELIC, autosomal or pseudoautosomal	285	Intellectual disability - microarray and sequencing	5.285	26159
+HGNC:10680	SDHA	3	Complete	-	256000	BIALLELIC, autosomal or pseudoautosomal	285	Intellectual disability - microarray and sequencing	5.285	26188
+HGNC:6407	KRAS	3	Complete	-	137215	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	285	Intellectual disability - microarray and sequencing	5.285	26432
+HGNC:9588	PTEN	3	Complete	-	608089||153480||188470||155600||276950	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	285	Intellectual disability - microarray and sequencing	5.285	26498
+HGNC:13315	HDAC8	3	Complete	-	309585	X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)	285	Intellectual disability - microarray and sequencing	5.285	26517
+HGNC:14234	NSD1	3	Complete	-	601626	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	285	Intellectual disability - microarray and sequencing	5.285	26554
+HGNC:4800	HSD17B10	3	Complete	-	300220	X-LINKED: hemizygous mutation in males, biallelic mutations in females	285	Intellectual disability - microarray and sequencing	5.285	26725
+HGNC:20626	CHD7	3	Complete	-	608765	MONOALLELIC, autosomal or pseudoautosomal, NOT imprinted	285	Intellectual disability - microarray and sequencing	5.285	26739
+HGNC:6990	MECP2	3	Complete	-	105830	X-LINKED: hemizygous mutation in males, monoallelic mutations in females may cause disease (may be less severe, later onset than males)	285	Intellectual disability - microarray and sequencing	5.285	26768
+HGNC:28396	TMEM67	3	Complete	-	209900	BIALLELIC, autosomal or pseudoautosomal	285	Intellectual disability - microarray and sequencing	5.285	26791
+HGNC:26927	FOXRED1	3	Complete	-	256000	BIALLELIC, autosomal or pseudoautosomal	112	Mitochondrial disorders	4.93	27077
+HGNC:7710	NDUFS3	3	Complete	-	256000	BIALLELIC, autosomal or pseudoautosomal	112	Mitochondrial disorders	4.93	27129
+HGNC:16268	PNPLA6	3	-	-	603197	BIALLELIC, autosomal or pseudoautosomal	466	Hereditary ataxia with onset in adulthood	4.22	27567
+HGNC:1375	CA4	1	Complete	17652713||15090652||16260723||15563508	600852	MONOALLELIC, autosomal or pseudoautosomal, imprinted status unknown	307	Retinal disorders	4.24	27707
+HGNC:28949	IQCB1	1	-	-	256100||204000	BIALLELIC, autosomal or pseudoautosomal	509	Structural eye disease	3.4	28341
+HGNC:24564	C2CD3	3	Complete	26044959	263520||613091||311200||208500	BIALLELIC, autosomal or pseudoautosomal	150	Rare multisystem ciliopathy disorders	1.168	28683
+HGNC:24564	C2CD3	3	-	26044959	263520||613091||311200||208500	BIALLELIC, autosomal or pseudoautosomal	724	Neurological ciliopathies	3.10	29318
+HGNC:24564	C2CD3	3	-	26044959	263520||613091||311200||208500	BIALLELIC, autosomal or pseudoautosomal	726	Skeletal ciliopathies	3.9	29505
+HGNC:20039	CAP2	0	-	34862840||30518548||33083013	620462	BIALLELIC, autosomal or pseudoautosomal	749	Paediatric or syndromic cardiomyopathy	3.30	29593
+HGNC:6636	LMNA	3	-	-	275210	BIALLELIC, autosomal or pseudoautosomal	846	Hereditary neuropathy or pain disorder	3.56	30108
