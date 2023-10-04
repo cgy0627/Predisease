@@ -1,9 +1,9 @@
 database:
-  GENCC_PATH: /home/ec2-user/project/Predisease/db/gencc_submissions.tsv
-  GENCC_NO_OMIM_PATH: /home/ec2-user/project/Predisease/db/gencc.no_omim.tsv
+  GENCC_PATH: /Users/jenny/projects/Predisease/preview/db/gencc_submissions.tsv
+  GENCC_NO_OMIM_PATH: /Users/jenny/projects/Predisease/preview/db/gencc.no_omim.tsv
   PANELAPP_UK_API_URL: https://panelapp.genomicsengland.co.uk/api/v1/genes/
-  PANELAPP_UK_PATH: /home/ec2-user/project/Predisease/db/panelapp.uk.genes_rawdata.tsv
+  PANELAPP_UK_PATH: /Users/jenny/projects/Predisease/preview/db/panelapp.uk.genes_rawdata.tsv
   PANELAPP_AUS_API_URL: https://panelapp.agha.umccr.org/api/v1/genes/
-  PANELAPP_AUS_PATH: /home/ec2-user/project/Predisease/db/panelapp.aus.genes_rawdata.tsv
-  MONDO_PATH: /home/ec2-user/project/Predisease/db/mondo.obo
-  MONDO_JSON_PATH: /home/ec2-user/project/Predisease/db/mondo.json
+  PANELAPP_AUS_PATH: /Users/jenny/projects/Predisease/preview/db/panelapp.aus.genes_rawdata.tsv
+  MONDO_PATH: /Users/jenny/projects/Predisease/preview/db/mondo.obo
+  MONDO_JSON_PATH: /Users/jenny/projects/Predisease/preview/db/mondo.json

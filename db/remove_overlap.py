@@ -1,23 +1,22 @@
 import requests, yaml, json
-from panelapp_gene import PanelAppGene
 import re
 
-config_file = "config.yaml"
+config_file = "config_temp.yaml"
 with open(config_file, "r") as file:
     config = yaml.safe_load(file)
 
 
-def parse_mondo_json() -> dict:
-    mondo_filepath = config["database"]["MONDO_JSON_PATH"]
-    mondo_open = open(mondo_filepath, "r")
+# def parse_mondo_json() -> dict:
+#     mondo_filepath = config["database"]["MONDO_JSON_PATH"]
+#     mondo_open = open(mondo_filepath, "r")
 
-    mondo = json.load(mondo_open)
-    # nodes = mondo[0]["graphs"]["nodes"]
+#     mondo = json.load(mondo_open)
+#     # nodes = mondo[0]["graphs"]["nodes"]
 
-    print(len(mondo["graphs"][0]["nodes"]))
+#     print(len(mondo["graphs"][0]["nodes"]))
 
 
-def check_if_omim_id(omim_id) -> bool:
+def check_if_omim_id(omim_id: str) -> bool:
     mim = omim_id.split(":")[1]
 
     return mim.isnumeric()
@@ -168,7 +167,7 @@ def parse_omim(omim_db: str) -> dict:
 
 
 def get_omim_ids():
-    omim_file_path = "/home/ec2-user/project/Predisease/db/omim.tsv"
+    omim_file_path = "/Users/jenny/projects/Predisease/preview/db/omim.tsv"
 
     omim_data = parse_omim(omim_file_path)
     omim_ids = set()
@@ -217,19 +216,23 @@ def remove_omim_from_gencc():
             line_info = dict(zip(header, columns))
 
             uuid = line_info["uuid"]
+            mondo_id = line_info["disease_curie"]  # MONDO id with :
 
-            hgnc_id = uuid.split("-")[1].strip()
-            omim_or_mondo_id = uuid.split("-")[2].strip()
-            original_omim_or_mondo_id = omim_or_mondo_id.replace("_", ":")
+            hgnc_id = uuid.split("-")[1].strip()  # underscore
+            disease_id = uuid.split("-")[2].strip()  # underscore
 
-            identifier = hgnc_id + "-" + omim_or_mondo_id
+            identifier = hgnc_id + "-" + disease_id
 
             is_novel = True
-            if (
-                omim_or_mondo_id.startswith("MONDO")
-                and original_omim_or_mondo_id in mondo_to_omim
-            ):  # MONDO:0007893
-                for temp_omim_id in mondo_to_omim[original_omim_or_mondo_id]:
+            if disease_id.startswith("OMIM"):
+                if identifier in omim_ids:
+                    is_novel = False
+
+            else:
+                if mondo_id not in mondo_to_omim:
+                    continue
+
+                for temp_omim_id in mondo_to_omim[mondo_id]:
                     identifier_variation = (
                         hgnc_id + "-" + temp_omim_id.replace(":", "_")
                     )
@@ -238,13 +241,13 @@ def remove_omim_from_gencc():
                         is_novel = False
                         break
 
-            elif omim_or_mondo_id.startswith("OMIM") and identifier in omim_ids:
-                is_novel = False
-
             if is_novel:
                 print(line.strip(), file=gencc_no_omim_output)
             else:
                 print(line.strip(), file=gencc_omim_overlap_output)
+
+    gencc_no_omim_output.close()
+    gencc_omim_overlap_output.close()
 
     return
 
@@ -398,8 +401,7 @@ def parse_panelapp_aus_json():
     return
 
 
-def parse_panelapp_uk_json():
-    panelapp_output_filepath = config["database"]["PANELAPP_UK_PATH"]
+def parse_panelapp_json(panelapp_output_filepath, api_url):
     panelapp_output = open(panelapp_output_filepath, "w")
 
     print(
@@ -449,7 +451,6 @@ def parse_panelapp_uk_json():
         file=panelapp_output,
     )
 
-    api_url = config["database"]["PANELAPP_UK_API_URL"]
     # api_url = "https://panelapp.genomicsengland.co.uk/api/v1/genes/?page=26"
 
     while api_url:
@@ -547,10 +548,8 @@ def parse_panelapp_uk_json():
     return
 
 
-def parse_panelapp_uk_rawdata():
-    panelapp_rawdata_filepath = config["database"]["PANELAPP_UK_PATH"]
-
-    panelapp_parsed_filepath = "panelapp.uk.genes_parsed.tsv"
+def parse_panelapp_rawdata(panelapp_rawdata_filepath: str, prefix: str) -> str:
+    panelapp_parsed_filepath = f"panelapp.{prefix}.genes_parsed.tsv"
     panelapp_parsed_output = open(panelapp_parsed_filepath, "w")
 
     print(
@@ -598,13 +597,16 @@ def parse_panelapp_uk_rawdata():
 
             omim_ids = set()
             for phenotype in phenotypes:
-                potential_omim_ids = set(re.findall(r"\d\d\d\d\d\d", phenotype))
+                potential_omim_ids = set(
+                    re.findall(r"\D\d\d\d\d\d\d\D", phenotype)
+                )
                 omim_ids |= potential_omim_ids
 
             if not omim_ids and publications == {"-"}:
                 continue
 
             for omim_id in omim_ids:
+                omim_id = omim_id[1:-1]
                 identifier = hgnc_id.replace(":", "_") + "-" + "OMIM_" + omim_id
 
                 ids.add(identifier)
@@ -632,8 +634,9 @@ def parse_panelapp_uk_rawdata():
 
             for publication in publications:
                 ####################################### 여기 publication preprocessing 필요함
-                re.sub(r"\(.*\)", "", publication)
-                pmid = re.match(r"\d+", publication)
+                # re.sub(r"\(.*\)", "", publication)
+                # pmid = re.match(r"\d+", publication)
+                pmid = publication
 
                 if not pmid:
                     continue
@@ -663,20 +666,16 @@ def parse_panelapp_uk_rawdata():
     panelapp_parsed_output.close()
     print(len(ids))
 
-    return
+    return panelapp_parsed_filepath
 
 
-def remove_omim_from_panelapp_uk():
+def remove_omim_from_panelapp(panelapp_file_path: str, prefix: str) -> str:
     omim_ids = get_omim_ids()
 
-    panelapp_file_path = (
-        "/home/ec2-user/project/Predisease/db/panelapp.uk.genes_parsed.tsv"
-    )
-
-    panelapp_no_omim_filepath = "panelapp.uk.no_omim.tsv"
+    panelapp_no_omim_filepath = f"panelapp.{prefix}.no_omim.tsv"
     panelapp_no_omim_output = open(panelapp_no_omim_filepath, "w")
 
-    panelapp_omim_overlap_filepath = "panelapp.uk.omim_overlap.tsv"
+    panelapp_omim_overlap_filepath = f"panelapp.{prefix}.omim_overlap.tsv"
     panelapp_omim_overlap_output = open(panelapp_omim_overlap_filepath, "w")
 
     with open(panelapp_file_path) as panelapp:
@@ -697,10 +696,85 @@ def remove_omim_from_panelapp_uk():
             else:
                 print(line.strip(), file=panelapp_omim_overlap_output)
 
-    return
+    panelapp_no_omim_output.close()
+    panelapp_omim_overlap_output.close()
+
+    return panelapp_no_omim_filepath
 
 
-def aggregate_panelapp(panelapp_filepath):
+def remove_gencc_from_panelapp(
+    panelapp_no_omim_filepath: str, prefix: str, keyword: str
+) -> str:
+    """_summary_
+
+    Note:
+        _description_
+
+    Args:
+        panelapp_filepath (str): _description_
+        prefix (str): e.g. "uk", "aus"
+        keyword (str): e.g. "Genomics England PanelApp", "PanelApp Australia"
+
+    Returns:
+        str: _description_
+
+    Examples:
+        >>> _description_
+    """
+    gencc_filepath = config["database"]["GENCC_PATH"]
+
+    gencc_data = set()
+    with open(gencc_filepath, "r") as gencc:
+        header = []
+        for line in gencc:
+            if line.startswith("uuid"):
+                header = line.strip().split("\t")
+                continue
+
+            columns = line.strip().split("\t")
+            line_info = dict(zip(header, columns))
+
+            submitter = line_info["submitter_title"]
+            hgnc_id = line_info["uuid"].split("-")[1]
+            disease_id = line_info["uuid"].split("-")[2]
+
+            if submitter == keyword:
+                pmids = line_info["submitted_as_pmids"].split(", ")
+
+                identifier = hgnc_id + "-" + disease_id
+                gencc_data.add(identifier)
+
+                for pmid in pmids:
+                    if pmid == "-":
+                        continue
+                    identifier = hgnc_id + "-" + "PMID_" + pmid
+                    gencc_data.add(identifier)
+
+    panelapp_no_gencc_filepath = f"panelapp.{prefix}.no_omim.no_gencc.tsv"
+    panelapp_no_gencc_output = open(panelapp_no_gencc_filepath, "w")
+
+    with open(panelapp_no_omim_filepath, "r") as panelapp:
+        header = []
+        for line in panelapp:
+            if line.startswith("#"):
+                header = line.strip().replace("#", "").split("\t")
+                print(line.strip(), file=panelapp_no_gencc_output)
+                continue
+
+            columns = line.strip().split("\t")
+            line_info = dict(zip(header, columns))
+
+            identifier = line_info["identifier"]
+
+            if identifier not in gencc_data:
+                print(line.strip(), file=panelapp_no_gencc_output)
+
+    panelapp_no_gencc_output.close()
+
+    return panelapp_no_gencc_filepath
+
+
+def aggregate_panelapp(panelapp_filepath, prefix):
     panelapp_info = {}
     with open(panelapp_filepath, "r") as panelapp:
         header = []
@@ -748,7 +822,7 @@ def aggregate_panelapp(panelapp_filepath):
                 ]
                 panelapp_info[new_id]["line_number"] = line_info["line_number"]
 
-    aggregate_panelapp_filepath = "panelapp.uk.aggregate.tsv"
+    aggregate_panelapp_filepath = f"panelapp.{prefix}.aggregate.tsv"
     aggregate_panelapp_output = open(aggregate_panelapp_filepath, "w")
     print(
         "#hgnc_id",
@@ -791,12 +865,132 @@ def aggregate_panelapp(panelapp_filepath):
     return
 
 
+def get_highest_panels(panelapp_filepath: str, prefix: str) -> str:
+    panelapp_filtered_filepath = (
+        f"panelapp.{prefix}.aggregate.highest_panels.tsv"
+    )
+    panelapp_filtered_output = open(panelapp_filtered_filepath, "w")
+
+    panelapp_filtered_data = {}
+    with open(panelapp_filepath, "r") as panelapp:
+        header = []
+        for line in panelapp:
+            if line.startswith("#"):
+                header = line.strip().replace("#", "").split("\t")
+                print(line.strip(), file=panelapp_filtered_output)
+                continue
+
+            columns = line.strip().split("\t")
+            line_info = dict(zip(header, columns))
+
+            hgnc_id = line_info["hgnc_id"]
+            panel_id = line_info["panel_id"]
+            panel_major_version, panel_minor_version = map(
+                int, line_info["panel_version"].split(".")
+            )
+
+            if panel_major_version < 1:
+                continue
+
+            key = hgnc_id + "-" + panel_id
+
+            if key in panelapp_filtered_data:
+                if panel_major_version > panelapp_filtered_data[key][
+                    "panel_major_version"
+                ] or (
+                    panel_major_version
+                    == panelapp_filtered_data[key]["panel_major_version"]
+                    and panel_minor_version
+                    > panelapp_filtered_data[key]["panel_minor_version"]
+                ):
+                    panelapp_filtered_data[key][
+                        "panel_major_version"
+                    ] = panel_major_version
+                    panelapp_filtered_data[key][
+                        "panel_minor_version"
+                    ] = panel_minor_version
+                    panelapp_filtered_data[key]["content"] = line.strip()
+            else:
+                panelapp_filtered_data[key] = {}
+                panelapp_filtered_data[key][
+                    "panel_major_version"
+                ] = panel_major_version
+                panelapp_filtered_data[key][
+                    "panel_minor_version"
+                ] = panel_minor_version
+                panelapp_filtered_data[key]["content"] = line.strip()
+
+    for hgnc_id, filtered_info in panelapp_filtered_data.items():
+        print(filtered_info["content"], file=panelapp_filtered_output)
+
+    panelapp_filtered_output.close()
+
+    return panelapp_filtered_filepath
+
+
+def filter_panelapp_aggregate(panelapp_filepath: str, prefix: str) -> str:
+    panelapp_filtered_filepath = f"panelapp.{prefix}.aggregate.filtered.tsv"
+    # panelapp_filtered_filepath = (
+    #     f"panelapp.{prefix}.aggregate.filtered_only_omim.tsv"
+    # )
+    panelapp_filtered_output = open(panelapp_filtered_filepath, "w")
+
+    with open(panelapp_filepath, "r") as panelapp:
+        header = []
+        for line in panelapp:
+            if line.startswith("#"):
+                header = line.strip().replace("#", "").split("\t")
+                print(line.strip(), file=panelapp_filtered_output)
+                continue
+
+            columns = line.strip().split("\t")
+            line_info = dict(zip(header, columns))
+
+            pmid = line_info["pmid"]
+            omim_id = line_info["omim_id"]
+
+            pmids = pmid.split("||")
+
+            if omim_id != "-":
+                print(line.strip(), file=panelapp_filtered_output)
+            else:
+                if len(pmids) >= 2:
+                    print(line.strip(), file=panelapp_filtered_output)
+
+    panelapp_filtered_output.close()
+
+    return panelapp_filtered_filepath
+
+
 def main():
-    remove_omim_from_gencc()
-    # parse_panelapp_uk_json()
-    # parse_panelapp_uk_rawdata()
-    # remove_omim_from_panelapp_uk()
-    # aggregate_panelapp("panelapp.uk.no_omim.tsv")
+    # remove_omim_from_gencc()
+
+    panelapp_uk_filepath = config["database"]["PANELAPP_UK_PATH"]
+    panelapp_uk_api = config["database"]["PANELAPP_UK_API_URL"]
+    panelapp_aus_filepath = config["database"]["PANELAPP_AUS_PATH"]
+    panelapp_aus_api = config["database"]["PANELAPP_AUS_API_URL"]
+
+    # parse_panelapp_json(panelapp_uk_filepath, panelapp_uk_api)
+    parse_panelapp_rawdata(panelapp_uk_filepath, "uk")
+    remove_omim_from_panelapp("panelapp.uk.genes_parsed.tsv", "uk")
+    remove_gencc_from_panelapp(
+        "panelapp.uk.no_omim.tsv", "uk", "Genomics England PanelApp"
+    )
+    aggregate_panelapp("panelapp.uk.no_omim.no_gencc.tsv", "uk")
+    get_highest_panels("panelapp.uk.aggregate.tsv", "uk")
+    filter_panelapp_aggregate("panelapp.uk.aggregate.highest_panels.tsv", "uk")
+
+    parse_panelapp_json(panelapp_aus_filepath, panelapp_aus_api)
+    parse_panelapp_rawdata(panelapp_aus_filepath, "aus")
+    remove_omim_from_panelapp("panelapp.aus.genes_parsed.tsv", "aus")
+    remove_gencc_from_panelapp(
+        "panelapp.aus.no_omim.tsv", "aus", "PanelApp Australia"
+    )
+    aggregate_panelapp("panelapp.aus.no_omim.no_gencc.tsv", "aus")
+    get_highest_panels("panelapp.aus.aggregate.tsv", "aus")
+    filter_panelapp_aggregate(
+        "panelapp.aus.aggregate.highest_panels.tsv", "aus"
+    )
 
     # parse_panelapp_aus_json()
 
